@@ -82,6 +82,10 @@ ul.todo{
 
 }
 
+.button{
+	padding: 2px;
+}
+
 a:link {
   text-decoration: none;
   color:#52515d;
