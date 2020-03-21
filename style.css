@@ -82,6 +82,26 @@ ul.todo{
 
 }
 
+a:link {
+  text-decoration: none;
+  color:#52515d;
+}
+
+a:visited {
+  text-decoration: none;
+  color:#52515d;
+}
+
+a:hover {
+  text-decoration: none;
+  color:#52515d;
+}
+
+a:active {
+  text-decoration: none;
+  color:#52515d;
+}
+
 
 ul.todo li{
 	font-family: 'Courier New';
