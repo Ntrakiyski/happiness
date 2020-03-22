@@ -215,3 +215,29 @@ input:checked + .slider:before {
 }
 
 
+.navbar {
+  background-color:#F9F9F9;
+  position: fixed;
+  bottom: 0;
+  width:93%;
+  left:0;
+  padding: 20px; 
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 10px;
+   
+}
+.gallerlabel{
+	margin-top:0px;
+	margin-bottom: 0px;
+	margin-left:155px;
+	color: black;
+	font-weight: 500;
+	font-size: 17px;
+	font-family: 'Courier New';
+	font-style:normal;
+
+}
+footer img{
+	margin-top: -50px;
+	margin-left:160px;
+}
