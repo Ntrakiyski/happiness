@@ -31,11 +31,7 @@ header {
 	border-bottom-left-radius: 30px;
 	border-bottom-right-radius: 30px; 
 }
-.headerimage{
-	margin-top: 10px;
-	position: absolute;
-	right: 5%;
-}
+
 footer img{
 	margin-top: -50px;
 	margin-left:160px;
@@ -79,3 +75,78 @@ header input : -ms-input-placeholder {
 	font-style:normal;
 
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.row{
+	padding-top: 30px;
+	padding-left: 25px;
+	margin-right: 10px;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 30%;
+  padding-right: 0px;
+  padding-bottom: 20px;
+  margin-right: 12px;
+
+ 
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.4;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+font-family: 'Courier New';
+	font-style:normal;
+	font-weight: 600;
+  position: absolute;
+  bottom: 15px;
+  left: 35px;
+  color: white;
+  font-size: 30px;
+}
+
+#expandedImg{
+	border-radius: 20px;
+	margin-left: 25px;
+	margin-right: 40px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: 1px;
+  right: 45px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+
