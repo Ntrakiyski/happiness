@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
 
+html{
+	height: 100%;
+}
+
+
 body{
 	background:#ffffff;
 	padding:65px 0 0 0;
@@ -57,7 +62,7 @@ header input : -ms-input-placeholder {
   background-color:#F9F9F9;
   position: fixed;
   bottom: 0;
-  width:93%;
+  width:100%;
   left:0;
   padding: 20px; 
   border-bottom-right-radius: 15px;
@@ -99,6 +104,11 @@ header input : -ms-input-placeholder {
 
 /* Style the images inside the grid */
 .column img {
+  opacity: 0.4;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.column1 img {
   opacity: 0.4;
   cursor: pointer;
   border-radius: 20px;
@@ -147,6 +157,19 @@ font-family: 'Courier New';
   color: white;
   font-size: 35px;
   cursor: pointer;
+}
+
+/* Animation */
+
+.column1 {
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  float: left;
+  width: 30%;
+  padding-right: 0px;
+  padding-bottom: 20px;
+  margin-right: 12px;
 }
 
 
