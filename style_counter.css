@@ -7,7 +7,11 @@ body{
 }
 header {
 		padding-bottom: 30px;
-    text-align: center;
+
+}
+header h1{
+
+  text-align: center;
 }
 
 .disabled {
