@@ -39,17 +39,7 @@ body{
 }
 
 header {
-	width:120px;
-	height: 85px;
-	position: fixed;
-	top:0;
-	left:0;
-	z-index:5;
-	padding: 0px  0px 15px;
-	background:#FEA5BE;
-	opacity: 0.7;
-	border-bottom-left-radius: 30px;
-	border-bottom-right-radius: 30px; 
+	
 }
 .headerimage{
 	margin-top: 10px;
@@ -105,22 +95,22 @@ ul.todo{
 	padding: 2px;
 }
 
-a:link {
+.todo a:link {
   text-decoration: none;
   color:#52515d;
 }
 
-a:visited {
+.todo a:visited {
   text-decoration: none;
   color:#52515d;
 }
 
-a:hover {
+.todo a:hover {
   text-decoration: none;
   color:#52515d;
 }
 
-a:active {
+.todo a:active {
   text-decoration: none;
   color:#52515d;
 }

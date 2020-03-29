@@ -1,16 +1,18 @@
 @charset "UTF-8";
 
 
-html{
-	height: 100%;
-}
-
-
 body{
 	background:#ffffff;
 	padding:65px 0 0 0;
-
 }
+
+/* Responsive 
+@media screen and (min-width:024px) and(max-width: 2002px) {
+  body {
+    background-color:#a9a9a9;
+    margin:px;
+   */
+
 
 .headertext{
 	position: relative;
@@ -22,6 +24,15 @@ body{
 	padding-left: 6px;
 }
 
+.block a[href]::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
 
 header {
 	width:120px;
@@ -36,10 +47,10 @@ header {
 	border-bottom-left-radius: 30px;
 	border-bottom-right-radius: 30px; 
 }
-
-footer img{
-	margin-top: -50px;
-	margin-left:160px;
+.headerimage{
+	margin-top: 10px;
+	position: absolute;
+	right: 5%;
 }
 
 
@@ -57,12 +68,11 @@ header input : -ms-input-placeholder {
 }
 
 
-
 .navbar {
   background-color:#F9F9F9;
   position: fixed;
   bottom: 0;
-  width:100%;
+  width:93%;
   left:0;
   padding: 20px; 
   border-bottom-right-radius: 15px;
@@ -80,96 +90,148 @@ header input : -ms-input-placeholder {
 	font-style:normal;
 
 }
-
-* {
-  box-sizing: border-box;
-}
-
-.row{
-	padding-top: 30px;
-	padding-left: 25px;
-	margin-right: 10px;
-}
-
-/* The grid: Four equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 30%;
-  padding-right: 0px;
-  padding-bottom: 20px;
-  margin-right: 12px;
-
- 
-}
-
-/* Style the images inside the grid */
-.column img {
-  opacity: 0.4;
-  cursor: pointer;
-  border-radius: 20px;
-}
-.column1 img {
-  opacity: 0.4;
-  cursor: pointer;
-  border-radius: 20px;
-}
-
-.column img:hover {
-  opacity: 1;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* The expanding image container (positioning is needed to position the close button and the text) */
-.container {
-  position: relative;
-  display: none;
-}
-
-/* Expanding image text */
-#imgtext {
-font-family: 'Courier New';
-	font-style:normal;
-	font-weight: 600;
-  position: absolute;
-  bottom: 15px;
-  left: 35px;
-  color: white;
-  font-size: 30px;
-}
-
-#expandedImg{
-	border-radius: 20px;
-	margin-left: 25px;
-	margin-right: 40px;
-}
-
-/* Closable button inside the image */
-.closebtn {
-  position: absolute;
-  top: 1px;
-  right: 45px;
-  color: white;
-  font-size: 35px;
-  cursor: pointer;
+footer img{
+	margin-top: -50px;
+	margin-left:160px;
 }
 
 /* Animation */
 
-.column1 {
-  animation-name: example;
-  animation-duration: 4s;
-  animation-delay: 2s;
-  float: left;
-  width: 30%;
-  padding-right: 0px;
-  padding-bottom: 20px;
-  margin-right: 12px;
+@-webkit-keyframes heartBeat {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  14% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+
+  28% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  42% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+
+  70% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes heartBeat {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  14% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+
+  28% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  42% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+
+  70% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.headerimage {
+  -webkit-animation-name: heartBeat;
+  animation-name: heartBeat;
+  -webkit-animation-duration: 1.3s;
+  animation-duration: 1.3s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #E1E1E1 ;
+   color: white;
+   
+   
+  
+}
+
+.navigation{
+
+   display: flex;
+   flex-direction: row; 
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   padding-top: 5px;
+   padding-left: 20px;
+   padding-right: 20px;
+
+
+}
+
+.labels{
+
+   display: flex;
+   flex-direction: row; 
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   padding-left: 35px;
+   padding-right: 20px;
+   padding-bottom: 20px;
+   font-family: 'Courier New';
+  font-weight:600;
+  font-style:normal;
+  font-size:14px;
+  color:#B0B0B0;
+
+
+}
+
+p.left{
+
+  margin: 0px;
+    
+}
+p.center{
+
+  margin: 0px;
+  padding-left: 10px;
+}
+p.right{
+
+  margin: 0px;
+  
+}
+
+#left {
+    float:left
+
+}
+
+#center {
+    float: center;
+  
+    
+}
+
+#right {
+    float:right;
+   
 }
 
 

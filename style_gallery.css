@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+
+html{
+	height: 100%;
+}
+
+
+body{
+	background:#ffffff;
+	padding:65px 0 0 0;
+
+}
+
+.headertext{
+	position: relative;
+	font-family: 'Courier New';
+	font-style:normal;
+	color: white;
+	font-size:22px;
+	padding-top: 18px;
+	padding-left: 6px;
+}
+
+
+header {
+	width:120px;
+	height: 85px;
+	position: fixed;
+	top:0;
+	left:0;
+	z-index:5;
+	padding: 0px  0px 15px;
+	background:#FEA5BE;
+	opacity: 0.7;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px; 
+}
+
+footer img{
+	margin-top: -50px;
+	margin-left:160px;
+}
+
+
+header input :: -webkit-input-placeholder {
+	color:rgba(255,255,255,0.75);
+}
+header input : -moz-input-placeholder {
+	color:rgba(255,255,255,0.75);
+}
+header input :: -moz-input-placeholder {
+	color:rgba(255,255,255,0.75);
+}
+header input : -ms-input-placeholder {
+	color:rgba(255,255,255,0.75);
+}
+
+
+
+.navbar {
+  background-color:#F9F9F9;
+  position: fixed;
+  bottom: 0;
+  width:100%;
+  left:0;
+  padding: 20px; 
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 10px;
+   
+}
+.gallerlabel{
+	margin-top:0px;
+	margin-bottom: 0px;
+	margin-left:155px;
+	color: black;
+	font-weight: 500;
+	font-size: 17px;
+	font-family: 'Courier New';
+	font-style:normal;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row{
+	padding-top: 30px;
+	padding-left: 25px;
+	margin-right: 10px;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 30%;
+  padding-right: 0px;
+  padding-bottom: 20px;
+  margin-right: 12px;
+
+ 
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.4;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.column1 img {
+  opacity: 0.4;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+font-family: 'Courier New';
+	font-style:normal;
+	font-weight: 600;
+  position: absolute;
+  bottom: 15px;
+  left: 35px;
+  color: white;
+  font-size: 30px;
+}
+
+#expandedImg{
+	border-radius: 20px;
+	margin-left: 25px;
+	margin-right: 40px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: 1px;
+  right: 45px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+/* Animation */
+
+.column1 {
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  float: left;
+  width: 30%;
+  padding-right: 0px;
+  padding-bottom: 20px;
+  margin-right: 12px;
+}
+
+
