@@ -241,7 +241,7 @@ input:checked + .slider:before {
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: #D8D8D8 ;
+   background-color: #E1E1E1 ;
    color: white;
    
    
@@ -269,11 +269,11 @@ input:checked + .slider:before {
    justify-content: space-between;
    padding-left: 35px;
    padding-right: 20px;
-   padding-bottom: 5px;
+   padding-bottom: 20px;
    font-family: 'Courier New';
-  font-weight:normal;
+  font-weight:600;
   font-style:normal;
-  font-size:12px;
+  font-size:14px;
   color:#B0B0B0;
 
 
