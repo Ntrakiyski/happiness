@@ -6,8 +6,8 @@ body{
 	padding:65px 0 0 0;
 }
 header {
-	padding-top: 10px;
-	padding-bottom: 30px;
+		padding-bottom: 30px;
+    text-align: center;
 }
 
 .disabled {
@@ -15,7 +15,7 @@ header {
 }
 
 .countersection{
-	
+
 	margin-top:20px;
 	position: absolute;
 }
