@@ -10,7 +10,7 @@ header {
 	padding-bottom: 30px;
 }
 
-header a.disabled {
+.disabled {
     pointer-events: none;
 }
 
