@@ -10,8 +10,8 @@ header {
 	padding-bottom: 30px;
 }
 
-header a{
-	
+header a.disabled {
+    pointer-events: none;
 }
 
 .countersection{
