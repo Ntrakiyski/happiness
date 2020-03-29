@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+
+body{
+	background:#ffffff;
+	padding:65px 0 0 0;
+}
+
+.countersection{
+	
+	margin-top:20px;
+	position: absolute;
+}
+.images{
+	position: relative;
+}
+
+.firstimage{
+	padding-left: 10px;
+	
+
+}
+.secondimage{
+	
+	
+	
+	margin-left: 240px;
+}
+.thirdimage{
+	
+	padding-left: 10px;
+	margin-bottom: : 30px; 
+	
+
+}
+
