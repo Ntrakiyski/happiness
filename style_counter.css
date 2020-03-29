@@ -6,7 +6,7 @@ body{
 	padding:65px 0 0 0;
 }
 header {
-	padding-top: 30px;
+	padding-top: 10px;
 	padding-bottom: 30px;
 }
 
@@ -39,3 +39,78 @@ header {
 .secondline{
 	
 	}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #E1E1E1 ;
+   color: white;
+   
+   
+  
+}
+
+.navigation{
+
+   display: flex;
+   flex-direction: row; 
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   padding-top: 5px;
+   padding-left: 20px;
+   padding-right: 20px;
+
+
+}
+
+.labels{
+
+   display: flex;
+   flex-direction: row; 
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   padding-left: 35px;
+   padding-right: 20px;
+   padding-bottom: 20px;
+   font-family: 'Courier New';
+  font-weight:600;
+  font-style:normal;
+  font-size:14px;
+  color:#B0B0B0;
+
+
+}
+
+p.left{
+
+  margin: 0px;
+    
+}
+p.center{
+
+  margin: 0px;
+  padding-left: 10px;
+}
+p.right{
+
+  margin: 0px;
+  
+}
+
+#left {
+    float:left
+
+}
+
+#center {
+    float: center;
+  
+    
+}
+
+#right {
+    float:right;
+   
+}
+
