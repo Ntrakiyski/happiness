@@ -3,11 +3,13 @@
 
 html{
 	height: 100%;
+  margin:10%;
 }
 
 body{
+  position: absolute;
 	background:#ffffff;
-	padding:65px 0 0 0;
+	margin-top: 30px;
 }
 
 /* Responsive 
@@ -28,23 +30,18 @@ body{
 	padding-left: 6px;
 }
 
-.block a[href]::after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
 
-header {
-	
+.headerimage1{
+  
+  position: absolute;
+  margin-left: 0px;
+
 }
-.headerimage{
-	margin-top: 10px;
-	position: absolute;
-	right: 5%;
+.headerimage2{
+  position: relative;
+  margin-left: 125px;
+  margin-top: 40px;
+  
 }
 
 
@@ -60,89 +57,122 @@ header input :: -moz-input-placeholder {
 header input : -ms-input-placeholder {
 	color:rgba(255,255,255,0.75);
 }
-.image1 {
-	position: relative;
-	margin-top: -15px;
-	margin-left: -45px;
-	}
 
-.date{
-	font-family: 'Courier New';
-	font-style:normal;
-	font-size:21px;
-	color:#C0C0C0;
-	margin-top: -38px;
-	margin-left: 120px;
-	position: absolute;
-}
-.image2{
-	margin-top: -54px;
-	margin-left: 126px;
-	position: absolute;
-	opacity: 0.2;
-}
-
-ul.todo{
-	width: 90%;
-	list-style-type: none; 
-	padding-left: 5%;
-	font-size:21px;
-	color:#52515d;
-
-}
-
-.button{
-	padding: 2px;
-}
-
-.todo a:link {
-  text-decoration: none;
-  color:#52515d;
-}
-
-.todo a:visited {
-  text-decoration: none;
-  color:#52515d;
-}
-
-.todo a:hover {
-  text-decoration: none;
-  color:#52515d;
-}
-
-.todo a:active {
-  text-decoration: none;
-  color:#52515d;
-}
-
-
-ul.todo li{
-	font-family: 'Courier New';
-	font-style:normal;
-	width: 100%;
-	height:60px;
-	background: rgb(240,240,240);
-	background: linear-gradient(90deg, rgba(240,240,240,1) 0%, rgba(249,249,249,1) 100%);
-	font-weight: 700;	
-	line-height: 22px;
-	border-radius:15px;
-	position: relative;
-	box-shadow: 0px 10px 7px rgba(237,243,234,0.30);
-	margin: 0 0 20px 0;
-	box-sizing: border-box;
-	padding: 20px 100px 20px 100px;
-
-	}
-
-ul.todo li:last-of-type{
-	margin:0;
-
-	}
 .container {
+  position: relative;
 	width: 100%;
 	float: left;
-	padding:250px 2px 5px 2px;
+	padding:20px 2px 5px 2px;
 }
+
+.box1{
+  box-sizing: border-box;
+  position: relative;
+  width: 180px;
+  height: 80px;
+  padding: 10px;  
+  border-top-left-radius: 30px;
+   border-bottom-right-radius: 30px;
+  background-color: grey;
+  margin:0px;
+  margin-left:65px;
+  box-shadow: 0px 10px 9px 1px rgba(181,181,181,1);
+
+}
+#label1{
+  font-family: 'Courier New';
+  font-weight:normal;
+  font-style:normal;
+  font-size:19px;
+  color:#ffff;
+  margin-top:20px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.box2{
+  box-sizing: border-box;
+  width: 310px;
+  height: 80px;
+  padding: 10px;  
+  border-top-left-radius: 30px;
+   border-bottom-right-radius: 30px;
+  background-color: grey;
+  margin-top:30px;
+  box-shadow: 0px 10px 9px 1px rgba(181,181,181,1);
+ 
+
+}
+#label2{
+  font-family: 'Courier New';
+  font-weight:normal;
+  font-style:normal;
+  font-size:21px;
+  color:#ffff;
+  margin-top:20px;
+  margin-bottom: 15px;
+  text-align: center;
+
+}
+
+.box3{
+  box-sizing: border-box;
+  width: 180px;
+  height: 80px;
+  padding: 10px;  
+  border-top-left-radius: 30px;
+   border-bottom-right-radius: 30px;
+  background-color: grey;
+  margin-top:30px;
+  margin-left:65px;
+  box-shadow: 0px 10px 9px 1px rgba(181,181,181,1);
+}
+#label3{
+  font-family: 'Courier New';
+  font-weight:normal;
+  font-style:normal;
+  font-size:19px;
+  color:#ffff;
+  margin-top:20px;
+  margin-bottom: 15px;
+  text-align: center;
+
+}
+
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: white;
+  }
+
 p.radio {
 	font-family: 'Courier New';
 	font-weight:normal;
@@ -152,7 +182,8 @@ p.radio {
 	position: relative;
 	padding-left: 10%;
 	padding-top: 40px;
-	font-weight: 600;
+  margin-top:0px;
+	font-weight: 550;
 	margin-bottom: 0px;
 }
 /* Slider Css */
@@ -361,11 +392,11 @@ p.right{
   }
 }
 
-.headerimage {
+.headerimage2 {
   -webkit-animation-name: heartBeat;
   animation-name: heartBeat;
   -webkit-animation-duration: 1.3s;
-  animation-duration: 1.3s;
+  animation-duration: 2.4s;
   -webkit-animation-timing-function: ease-in-out;
   animation-timing-function: ease-in-out;
 }
