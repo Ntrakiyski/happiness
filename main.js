@@ -10,3 +10,18 @@
   // Show the container element (hidden with CSS)
   expandImg.parentElement.style.display = "block";
 }
+
+/* Pop up - slider */
+document.getElementById('toggle').addEventListener('click',function(){
+
+  document.querySelector('.bg-modal').style.display = 'flex';
+
+  });
+
+document.querySelector('.close').addEventListener('click', function() {
+
+  document.querySelector('.bg-modal').style.display ="none";
+
+}); 
+
+
