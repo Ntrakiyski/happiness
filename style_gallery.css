@@ -56,6 +56,27 @@ header input : -ms-input-placeholder {
 	color:rgba(255,255,255,0.75);
 }
 
+.toGallery{
+
+  position: fixed;
+  margin-top: 25px;
+
+}
+.button{
+  background-color: #6A88C2; 
+  font-family: 'Courier New';
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  margin-left: 152px;
+  
+}
+
 
 
 .navbar {
