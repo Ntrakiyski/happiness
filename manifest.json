@@ -1,7 +1,7 @@
 {
   "name": "Happiness",
   "short_name": "Happy",
-  "theme_color": "#c84a60",
+  "theme_color": "#2196F3",
   "background_color": "#c84a60",
   "display": "standalone",
   "orientation": "portrait",
