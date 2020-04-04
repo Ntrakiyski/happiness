@@ -24,16 +24,23 @@ document.querySelector('.close').addEventListener('click', function() {
 
 }); 
 
+/* Gallery pop up */
+
 document.getElementById('imageGallery').addEventListener('click',function(){
 
   document.querySelector('.bg-modal2').style.display = 'flex';
+  document.querySelector('.bg-modal2').classList.toggle('animated');
 
   });
 
+
+
+
 document.querySelector('.close2').addEventListener('click', function() {
 
-  document.querySelector('.bg-modal2').style.display ="none";
-
-}); 
-
+ 
+  
+   document.querySelector('.bg-modal2').style.display ="none";
+   
+  });
 

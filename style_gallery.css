@@ -8,18 +8,16 @@ html{
 
 body{
 	background:#ffffff;
-	padding:65px 0 0 0;
+	padding:15px 0 0 0;
 
 }
 
-.headertext{
-	position: relative;
+.titleGallery{
 	font-family: 'Courier New';
 	font-style:normal;
-	color: white;
-	font-size:22px;
-	padding-top: 18px;
-	padding-left: 6px;
+	font-size:21px;
+  margin-left: 47%; 
+	
 }
 
 
@@ -59,21 +57,24 @@ header input : -ms-input-placeholder {
 .toGallery{
 
   position: fixed;
-  margin-top: 25px;
+  bottom: 0;
+
 
 }
 .button{
   background-color: #6A88C2; 
   font-family: 'Courier New';
   border: none;
-  border-radius: 10px;
+  border-radius: 50px;
   color: white;
+  height: 90px;
+  width: 90px;
   padding: 10px 22px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 19px;
-  margin-left: 152px;
+  margin-left: 154px;
   
 }
 
@@ -107,7 +108,7 @@ header input : -ms-input-placeholder {
 }
 
 .row{
-	padding-top: 30px;
+	padding-top: 20px;
 	padding-left: 25px;
 	margin-right: 10px;
 }

@@ -3,7 +3,7 @@
 
 body{
 	background:#ffffff;
-	padding:35px 0 0 0;
+	padding:15px 0 0 0;
 }
 header {
 		padding-bottom: 30px;
@@ -14,26 +14,109 @@ header h1{
   text-align: center;
 }
 
+.titlePresent{
+  font-family: 'Courier New';
+  font-style:normal;
+  font-size:21px;
+  margin-left: 47%; 
+  
+}
+
+.vertLeft{
+  height: 355px;
+  border-color: black;
+  border-width:1px;
+  border-style: solid;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 1px;
+  border-radius: 10px;
+}
+.horLeft{
+  width:250px;
+  border-color: black;
+  border-width:1px;
+  border-style: solid;
+  margin-top: 0px;
+  margin-left: 50px;
+  border-radius: 10px;
+}
+.vertRight{
+  height: 355px;
+  border-color: black;
+  border-width:1px;
+  border-style: solid;
+  position: absolute;
+  margin-left: 350px;
+  margin-top: 45px;
+  border-radius: 10px;
+}
+.horRight{
+  width:250px;
+  border-color: black;
+  border-width:1px;
+  border-style: solid;
+  margin-top: 400px;
+  margin-left: 100px;
+  border-radius: 10px;
+}
+.lines{
+  
+  z-index: -1;
+}
+.Quoteimg{
+  position: absolute;
+  margin-left: 310px;
+  margin-top: -10px;
+}
+.Quoteimg2{
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 372px;
+}
+.QuoteText{
+  position: absolute;
+  width: 230px;
+  height: 300px;
+  margin-left: 95px;
+  margin-top: 60px;
+   font-family: 'Apercu';
+  font-weight: 500;
+  font-size:23px;
+  letter-spacing: 4px;
+  word-spacing: 15px;
+  text-align: left;
+  line-height: 1.7;
+
+}
+
+
+
+
 .toGallery{
 
   position: fixed;
-  margin-top: 25px;
+  bottom: 0;
+
 
 }
 .button{
   background-color: #6A88C2; 
   font-family: 'Courier New';
   border: none;
-  border-radius: 10px;
+  border-radius: 50px;
   color: white;
+  height: 90px;
+  width: 90px;
   padding: 10px 22px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 19px;
-  margin-left: 152px;
+  margin-left: 154px;
   
 }
+
 
 .disabled {
     pointer-events: none;
@@ -44,102 +127,3 @@ header h1{
 	margin-top:20px;
 	position: absolute;
 }
-.images{
-	position: relative;
-}
-
-.firstimage{
-	padding-left: 10px;
-	
-
-}
-.secondimage img{
-	position: absolute;
-	left:240px;
-}
-.thirdimage{
-	padding-left: 10px;
-	margin-bottom: : 30px; 
-}
-.firstline{
-	
-	
-}
-.secondline{
-	
-	}
-.footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: #E1E1E1 ;
-   color: white;
-   
-   
-  
-}
-
-.navigation{
-
-   display: flex;
-   flex-direction: row; 
-   flex-wrap: nowrap;
-   justify-content: space-between;
-   padding-top: 5px;
-   padding-left: 20px;
-   padding-right: 20px;
-
-
-}
-
-.labels{
-
-   display: flex;
-   flex-direction: row; 
-   flex-wrap: nowrap;
-   justify-content: space-between;
-   padding-left: 35px;
-   padding-right: 20px;
-   padding-bottom: 20px;
-   font-family: 'Courier New';
-  font-weight:600;
-  font-style:normal;
-  font-size:14px;
-  color:#B0B0B0;
-
-
-}
-
-p.left{
-
-  margin: 0px;
-    
-}
-p.center{
-
-  margin: 0px;
-  padding-left: 10px;
-}
-p.right{
-
-  margin: 0px;
-  
-}
-
-#left {
-    float:left
-
-}
-
-#center {
-    float: center;
-  
-    
-}
-
-#right {
-    float:right;
-   
-}
-
