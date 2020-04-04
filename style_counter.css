@@ -26,17 +26,18 @@ main{
 
 .vertLeft{
   height: 355px;
-  border-color: black;
+  border-color: lightgrey;
   border-width:1px;
   border-style: solid;
   position: absolute;
   margin-left: 50px;
   margin-top: 1px;
   border-radius: 10px;
+
 }
 .horLeft{
   width:250px;
-  border-color: black;
+  border-color: lightgrey;
   border-width:1px;
   border-style: solid;
   margin-top: 0px;
@@ -45,7 +46,7 @@ main{
 }
 .vertRight{
   height: 355px;
-  border-color: black;
+  border-color: lightgrey;
   border-width:1px;
   border-style: solid;
   position: absolute;
@@ -55,7 +56,7 @@ main{
 }
 .horRight{
   width:250px;
-  border-color: black;
+  border-color: lightgrey;
   border-width:1px;
   border-style: solid;
   margin-top: 400px;
@@ -70,11 +71,13 @@ main{
   position: absolute;
   margin-left: 310px;
   margin-top: -10px;
+  opacity: 0.3;
 }
 .Quoteimg2{
   position: absolute;
   margin-left: 30px;
   margin-top: 372px;
+  opacity: 0.3;
 }
 .QuoteText{
   position: absolute;
