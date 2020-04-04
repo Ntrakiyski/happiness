@@ -11,7 +11,7 @@ header {
 }
 header h1{
 
-  text-align: center;
+  
 }
 main{
   margin-top:30px;
@@ -19,9 +19,8 @@ main{
 
 .titlePresent{
   font-family: 'Courier New';
-  font-style:normal;
   font-size:21px;
-  margin-left: 47%; 
+  margin-left: 46%; 
   
 }
 

@@ -147,6 +147,25 @@ header input : -ms-input-placeholder {
   clear: both;
 }
 
+.animated{
+    animation: appear 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes appear {
+    0% {
+        opacity: 0;
+        transform: scaleY(0);
+        transform-origin: top;
+    }
+    100% {
+        opacity: 1;
+        transform: scaleY(1);
+        transform-origin: top;
+    }
+}
+
+
 /* The expanding image container (positioning is needed to position the close button and the text) */
 .container {
   position: relative;
@@ -181,13 +200,9 @@ font-family: 'Courier New';
   cursor: pointer;
 }
 
-/* Animation */
 
 .column1 {
-  animation-name: example;
-  animation-duration: 4s;
-  animation-delay: 2s;
-  float: left;
+   float: left;
   width: 30%;
   padding-right: 0px;
   padding-bottom: 20px;

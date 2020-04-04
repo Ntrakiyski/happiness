@@ -139,10 +139,11 @@ body{
   font-size:19px;
   color: white;
   text-align: center;
-  padding-left:55px;
-  padding-right:55px;
+  padding-left:35px;
+  padding-right:35px;
   margin-top: 15px;
   margin-bottom: 10px;
+  letter-spacing: 2px;
 }
 .bg-modal2{
  

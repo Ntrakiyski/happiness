@@ -21,6 +21,20 @@ body{
   
 }
 
+.texBoy{
+    font-family: 'Courier New';
+    font-style:normal;
+    font-size:21px;
+    margin-left: 10px;
+    margin-top: 80px;
+}
+
+.imageBoy{
+margin-left:30px;
+margin-top: 20px;
+
+}
+
 .toGallery{
 
   position: fixed;
