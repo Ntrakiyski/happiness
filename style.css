@@ -3,510 +3,161 @@
 
 html{
   height: 100%;
-  margin:5%;
+  
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(proxima nova.otf);
 }
 
 body{
-  position: absolute;
-  background:#ffffff;
-  margin-top: 20px;
-}
-
-
-/* Responsive 
-@media screen and (min-width:024px) and(max-width: 2002px) {
-  body {
-    background-color:#a9a9a9;
-    margin:px;
-   */
-
-.galleryHead{
-     margin-top: 0px;
-    float: right;
-    transform: rotate(25deg);
-    margin-top: 10px;
-
-
+  font-family: "myFirstFont",  serif;
+  margin-left:25px;
+  margin-right: 25px;
+  background-color: #F9F7F4;
 
 }
 
-.headertext{
-  position: relative;
-  font-family: 'Courier New';
-  font-style:normal;
-  color: white;
-  font-size:22px;
-  padding-top: 18px;
-  padding-left: 6px;
-}
+
+/* Section position - relative, child position - absolute*/
 
 
-.headerimage1{
-  
-  position: absolute;
-  margin-left: 0px;
+/*Секция с хедъра + бутончето в дясно (weekly)*/
+
+.header{
   margin-top: 50px;
-
-
-}
-.headerimage2{
-  
   position: relative;
-  margin-left: 220px;
-  margin-top: 140px;
+  height: 40px;
+
   
 }
-
-.bg-modal{
- 
-  width:100%;
-  height: 100%;
-  background-color: rgb(0,0,0,0.7);
-  position: fixed;
-  top:0;
-  left:0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  display: none;
+.title-header{
+  font-size:32px;
+  font-weight: bold;
 }
-
-.modal-content{
-  width: 340px;
-  height: 200px;
-  background-color: black;
-  border-radius: 10px;
-  position: relative;
-
-}
-.close{
+.weekly-roundbox{
   position: absolute;
-  top: 0;
-  right: 14px;
-  font-size: 36px;
-  color:white;
-  transform: rotate(45deg);
-
-}
-.animated{
-    animation: appear 0.5s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-@keyframes appear {
-    0% {
-        opacity: 0;
-        transform: scaleY(0);
-        transform-origin: top;
-    }
-    100% {
-        opacity: 1;
-        transform: scaleY(1);
-        transform-origin: top;
-    }
-}
-
-.animatedclose{
-    animation: close 0.5s;
-    animation-iteration-count: 1;
-    animation-fill-mode: backwards;
-}
-@keyframes close {
-    0% {
-        opacity: 1;
-        transform: scaleY(1);
-        transform-origin: bottom;
-    }
-    100% {
-        opacity: 0;
-        transform: scaleY(0);
-        transform-origin: top;
-    }
-}
-
-
-
-.gifpopup{
-  margin-top: 10px;
+  top:8px;
   text-align: center;
-
-}
-.contentpopup p{
-  font-family: 'Courier New';
-  font-weight:normal;
-  font-style:normal;
-  font-weight: 600;
-  font-size:19px;
-  color: white;
-  text-align: center;
-  padding-left:35px;
-  padding-right:35px;
-  margin-top: 15px;
-  margin-bottom: 10px;
-  letter-spacing: 2px;
-}
-.bg-modal2{
- 
-  width:100%;
-  height: 390px;
-  background-color: rgb(0,0,0,0.3);
-  background-image: linear-gradient(white,rgb(0,0,0,0));
-  position: fixed;
-  top:0;
-  left:0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  display: none;
-}
-.modal-content2{
-  top:40px;
-  width: 85%;
-  height: 280px;
+  left: 225px;
+  height: 25px;
+  width: 100px;
   background-color: white;
-  border-radius: 10px;
-  position: relative;
-
+  border-radius: 15px;
+}
+.label-roundbox-weekly{
+  margin-top:5px;
+  color:#BDBDBD;
 }
 
-.close2{
+/* Секцията с картинката yoga challenge */
+
+.yoga-section{
+  margin-top: 40px;
+  background: white;
+  height: 350px;
+  width: 325px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+}
+.lady-image{
   position: absolute;
-  top: 0;
-  right: 14px;
-  font-size: 36px;
-  transform: rotate(45deg);
-
+  top: 100px;
+  left: 0px;
 }
-
-.toofast{
-   font-family: 'Courier New';
-  font-weight:normal;
-  font-style:normal;
-  font-weight: 600;
-  font-size:21px;
-  margin-left: 15px;
-
-}
-.row{
-  box-sizing: border-box;
-  padding-top: 5px;
-  padding-left: 5px;
-  margin-right: 5px;
-  filter: blur(4px);
-}
-
-.imagepreview1{
-  float: left;
-  width: 30%;
-  padding-right: 0px;
-  padding-bottom: 20px;
-  margin-right: 12px;
+.title-challenge{
+  position: relative;
+  top:20px;
+  left:190px;
+  font-size:19px;
+  font-weight: bold;
  
+}
+#numbcoler{
+  color:#BDBDBD;
+  
+}
+.days{
+  position: relative;
+  top:25px;
+  left:275px;
+  font-weight: bold;
+  font-size:28px;
 
 }
-.imagepreview2{
-  padding-right: 0px;
-  padding-bottom: 20px;
-  margin-right: 12px;
- 
+.time-lady{
+  position: relative;
+  top:240px;
+  left:15px;
+  font-size: 20px;
+  color: #545454;
 
 }
-.button{
-  background-color: #6A88C2; 
-  font-family: 'Courier New';
-  border: none;
-  border-radius: 10px;
-  color: white;
-  padding: 10px 22px;
+.yoga-roundbox{
+   position: relative;
+  top:235px;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
+  left: 235px;
+  height: 25px;
+  width: 80px;
+  background-color: #F9F7F4;
+  border-radius: 15px;
+}
+
+.label-roundbox-lady{
+  padding-top: 4px;
+  color:#545454;
+}
+
+/* Секцията с Upcoming healthy cooking and creative growth */
+
+.upcoming-title{
+  margin-top:30px;
   font-size: 19px;
-  margin-left: 210px;
+  font-weight: bold;
   
 }
-
-
-
-
-
-header input :: -webkit-input-placeholder {
-  color:rgba(255,255,255,0.75);
-}
-header input : -moz-input-placeholder {
-  color:rgba(255,255,255,0.75);
-}
-header input :: -moz-input-placeholder {
-  color:rgba(255,255,255,0.75);
-}
-header input : -ms-input-placeholder {
-  color:rgba(255,255,255,0.75);
-}
-
-.container {
+.cooking-section{
   position: relative;
-  width: 100%;
-  float: left;
-  padding:70px 2px 5px 2px;
-}
-
-.box1{
-  box-sizing: border-box;
-  position: relative;
-  width: 200px;
-  height: 50px;
-  padding: 10px;  
-  border-top-left-radius: 30px;
-   border-bottom-right-radius: 30px;
-  background-color: #F7B7C4;
-  margin:0px;
-  margin-left:75px;
-  box-shadow: 0px 10px 9px 1px rgba(181,181,181,1);
-  opacity: 0.7;
-
-}
-#label1{
-  font-family: 'Courier New';
-  font-weight:normal;
-  font-style:normal;
-  font-size:19px;
-  color:#ffff;
-  margin-top:5px;
+  margin-top: 15px;
+  background: white;
+  height: 90px;
+  width: 325px;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
   
-  text-align: center;
-  opacity: 1;
 }
-.box2{
-  box-sizing: border-box;
-  width: 340px;
-  height: 80px;
-  padding: 10px;  
-  border-top-left-radius: 30px;
-   border-bottom-right-radius: 30px;
-  background-color: #6A88C2;
-  margin-top:30px;
-  box-shadow: 0px 10px 9px 1px rgba(181,181,181,1);
- 
-
-}
-#label2{
-  font-family: 'Courier New';
-  font-weight:bold;
-  font-style:normal;
-  font-size:23px;
-  color:#ffff;
-  margin-top:20px;
-  margin-bottom: 15px;
-  text-align: center;
-
-}
-
-.box3{
-  box-sizing: border-box;
-  width: 200px;
-  height: 50;
-  padding: 10px;  
-  border-top-left-radius: 30px;
-   border-bottom-right-radius: 30px;
-  background-color: #F7B7C4;;
-  margin-top:30px;
-  margin-left:75px;
-  opacity: 0.7;
-  box-shadow: 0px 10px 9px 1px rgba(181,181,181,1);
-}
-#label3{
-  font-family: 'Courier New';
-  font-weight:normal;
-  font-style:normal;
-  font-size:19px;
-  color:#ffff;
-  margin-top:5px;
-  margin-bottom: 5px;
-  
-  text-align: center;
-
-}
-
-
-a:link {
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-a:active {
-  text-decoration: none;
-}
-a:link {
-  color: black;
-}
-
-/* visited link */
-a:visited {
-  color: white;
-}
-
-/* mouse over link */
-a:hover {
-  color: white;
-}
-
-/* selected link */
-a:active {
-  color: white;
-  }
-
-p.radio {
-  font-family: 'Courier New';
-  font-weight:normal;
-  font-style:normal;
-  font-size:23px;
-  color:#444;
+.title-cooking{
   position: relative;
-  padding-left: 10px;
-  padding-top: 75px;
-  margin-top:0px;
-  font-weight: 550;
-  margin-bottom: 0px;
+  top: 20px;
+  left: 90px;
+  font-size: 18px;
+  font-weight: bold;
 }
-/* Slider Css */
-
-.switch {
+.cooking-image{
+  position: absolute;
+  top: 20px;
+  left:20px;
+}
+.time-cooking{
+  position: absolute;
+  top: 45px;
+  left:90px;
+}
+.cooking-roundbox{
   position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 34px;
+  top:28px;
+  text-align: center;
+  left: 235px;
+  height: 25px;
+  width: 80px;
+  background-color: #F9F7F4;
+  border-radius: 15px;
 }
-
-.switch input { 
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-input:checked + .slider {
-  background-color: #F7B7C4;
-  border:none;
-}
-
-input:focus + .slider {
-  box-shadow: 0px 0px 0px #f3212d;
-}
-
-input:checked + .slider:before {
-  -webkit-transform: translateX(16px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
-}
-
-/* Rounded sliders */
-.slider.round {
-  border-radius: 34px;
-
-}
-
-.slider.round:before {
-  border-radius: 50%;
-}
-
-.butonche{
-  position: absolute;
-  padding-left: 75%;
-  margin-top: -30px;
-
-}
-
-/*Animation*/
-
-@-webkit-keyframes heartBeat {
-  0% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-
-  14% {
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
-  }
-
-  28% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-
-  42% {
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
-  }
-
-  70% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-}
-
-@keyframes heartBeat {
-  0% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-
-  14% {
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
-  }
-
-  28% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-
-  42% {
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
-  }
-
-  70% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-}
-
-.headerimage2 {
-  -webkit-animation-name: heartBeat;
-  animation-name: heartBeat;
-  -webkit-animation-duration: 1.3s;
-  animation-duration: 2.4s;
-  -webkit-animation-timing-function: ease-in-out;
-  animation-timing-function: ease-in-out;
+.label-roundbox-cooking{
+  padding-top: 4px;
+  color:#545454;
 }
