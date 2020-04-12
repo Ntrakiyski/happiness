@@ -1,11 +1,6 @@
 @charset "UTF-8";
 
 
-html{
-  height: 100%;
-  
-}
-
 @font-face {
   font-family: myFirstFont;
   src: url(proxima nova.otf);
@@ -40,7 +35,7 @@ body{
   position: absolute;
   top:8px;
   text-align: center;
-  left: 225px;
+  left: 265px;
   height: 25px;
   width: 100px;
   background-color: white;
@@ -56,11 +51,11 @@ body{
 .yoga-section{
   margin-top: 40px;
   background: white;
-  height: 350px;
-  width: 325px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+  height: 340px;
+  width: 365px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
 
 }
 .lady-image{
@@ -69,9 +64,9 @@ body{
   left: 0px;
 }
 .title-challenge{
-  position: relative;
-  top:20px;
-  left:190px;
+  position: absolute;
+  top:150px;
+  left:220px;
   font-size:19px;
   font-weight: bold;
  
@@ -81,26 +76,26 @@ body{
   
 }
 .days{
-  position: relative;
-  top:25px;
-  left:275px;
+  position: absolute;
+  top:180px;
+  left:305px;
   font-weight: bold;
   font-size:28px;
 
 }
 .time-lady{
-  position: relative;
-  top:240px;
-  left:15px;
+  position: absolute;
+  top:420px;
+  left:40px;
   font-size: 20px;
   color: #545454;
 
 }
 .yoga-roundbox{
-   position: relative;
-  top:235px;
+   position: absolute;
+  top:420px;
   text-align: center;
-  left: 235px;
+  left: 290px;
   height: 25px;
   width: 80px;
   background-color: #F9F7F4;
@@ -125,13 +120,13 @@ body{
   margin-top: 15px;
   background: white;
   height: 90px;
-  width: 325px;
+  width: 365px;
   border-bottom-left-radius: 25px;
   border-top-right-radius: 25px;
   
 }
 .title-cooking{
-  position: relative;
+  position: absolute;
   top: 20px;
   left: 90px;
   font-size: 18px;
@@ -151,7 +146,7 @@ body{
   position: relative;
   top:28px;
   text-align: center;
-  left: 235px;
+  left: 265px;
   height: 25px;
   width: 80px;
   background-color: #F9F7F4;
@@ -161,3 +156,113 @@ body{
   padding-top: 4px;
   color:#545454;
 }
+
+/* Creative секцията */
+
+.creative-section{
+  position: relative;
+  background: white;
+  margin-top: 25px;
+  height: 135px;
+  width:365px;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.title-creative{
+  position: absolute;
+  top: 20px;
+  left: 90px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.creative-image{
+  position: absolute;
+  top: 20px;
+  left:20px;
+}
+.time-creative{
+  position: absolute;
+  top: 45px;
+  left:90px;
+}
+.bullets{
+   position: absolute;
+  top: 80px;
+  left:38px;
+}
+.bullet1-title{
+  position: absolute;
+  top: 77px;
+  left:58px;
+  font-size: 16px;
+  color: #BDBDBD;
+}
+.bullet2-title{
+  position: absolute;
+  top: 103px;
+  left:58px;
+  font-size: 16px;
+  color: #BDBDBD;
+}
+.creative-roundbox{
+  position: relative;
+  top:75px;
+  text-align: center;
+  left: 265px;
+  height: 25px;
+  width: 80px;
+  background-color: #F9F7F4;
+  border-radius: 15px;
+}
+.label-roundbox-creative{
+  padding-top: 4px;
+  color:#545454;
+}
+
+/* Footer */
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 390px;
+  background-color: white;
+  height: 64px;
+  border-top-right-radius: 25px;
+
+}
+.home-image{
+  position: absolute;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  left:40px;
+}
+.chart-image{
+  position: absolute;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  left:110px;
+}
+
+.add-image{
+  position: absolute;
+   padding-top: 15px;
+  
+  left:180px;
+}
+.heart-image{
+  position: absolute;
+   padding-top: 20px;
+  padding-bottom: 20px;
+  left:250px;
+}
+.person-image{
+  position: absolute;
+   padding-top: 20px;
+  padding-bottom: 20px;
+  left: 320px;
+}
+
+
+
+
