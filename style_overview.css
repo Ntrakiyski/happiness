@@ -1,0 +1,419 @@
+@charset "UTF-8";
+
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(proxima nova.otf);
+}
+
+body{
+  font-family: "myFirstFont",  serif;
+  margin-left:25px;
+  margin-right: 25px;
+  background-color: #F9F7F4;
+
+}
+
+
+/* Section position - relative, child position - absolute*/
+
+
+/*Секция с хедъра + бутончето в дясно (weekly)*/
+
+.header{
+  margin-top: 40px;
+  position: relative;
+  height: 40px; 
+  left: 15px;
+}
+.title-header{
+  font-size:28px;
+  font-weight: bold;
+}
+.total-section{
+  position: relative;
+   margin-top: 20px;
+  background: white;
+  height: 240px;
+  width: 365px;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+  box-shadow: 0px 20px 40px rgba(184,184,184,0.25);
+
+}
+.total-section-title{
+  position: absolute;
+  font-size:20px;
+  font-weight: bold;
+  left:15px;
+  top:20px;
+}
+.total-section-star{
+  position: absolute;
+  left: 300px;
+  top: 10px;
+}
+.circle-border{
+    position: absolute;
+    text-align: center;
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    top: 40px;
+    left: 115px;
+    stroke-dasharray: 220;
+    stroke-dashoffset:220;
+
+    background-color:#FFE3E0;
+    background-image:
+        linear-gradient(90deg, transparent 50%, #D37067 50%),
+        linear-gradient(5deg, #D37067 50%, transparent 50%);
+  
+}
+.circle{
+    position: absolute;
+    top: 50px;
+    left: 125px;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    background-color: white;
+}
+
+.pie-percent{
+  position: absolute;
+  top:95px;
+  left:165px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.total-section-svg{
+  position: relative;
+  top:195px;
+}
+
+hr.total-svg{
+ border: 0.6px solid;
+ border-color: #E8E8E8;
+ 
+}
+.total-section-tip{
+  position: absolute;
+  top:210px;
+  font-size: 16px;
+  color:#929292;
+  left:15px;
+}
+
+/* Your challenges */
+.challenges-section{
+  position: relative;
+  background: white;
+  margin-top: 25px;
+  height: 235px;
+  width:365px;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+   box-shadow: 0px 20px 40px rgba(184,184,184,0.25);
+}
+
+.challenges-section-title{
+   position: absolute;
+  font-size:20px;
+  font-weight: bold;
+  left:15px;
+  top:20px;
+}
+
+.challenges-section-three-dots{
+  position: absolute;
+  left:310px;
+  top:20px;
+
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.yoga-holder{
+  position: absolute;
+  top:30px;
+  left:15px;
+}
+
+
+.progress-bars{
+  position: relative;
+  top:0px;
+ 
+}
+ul{
+   padding-left: 0px;
+   width: 190px;
+}
+li{ 
+  font-size: 17px;
+  position: relative;
+  list-style: none;
+  margin-top:30px
+
+}
+
+/*progress bar - YOGA */
+.yoga-progress li:before {
+  content:"";
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 100%;
+  height: 7px;
+  background-color: #F1F1F1 ;
+  border-radius:  1000px;
+}
+.yoga-progress li:after{
+  content:"";
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 60%;
+  height: 7px;
+  background-color: #CCD085;
+  border-radius:  1000px;
+}
+/*progress bar - healthy */
+.healthy-progress li:before {
+  content:"";
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 100%;
+  height: 7px;
+  background-color: #F1F1F1;
+  border-radius:  1000px;
+}
+.healthy-progress li:after{
+  content:"";
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 40%;
+  height: 7px;
+  background-color: #BB9106;
+  border-radius:  1000px;
+}
+
+/*progress bar - creative*/
+.creative-progress li:before {
+  content:"";
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 100%;
+  height: 7px;
+  background-color: #F1F1F1;
+  border-radius:  1000px;
+}
+.creative-progress li:after{
+  content:"";
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 70%;
+  height: 7px;
+  background-color: #CC5C51;
+  border-radius:  1000px;
+}
+
+/*goal 5/7 yoga */
+
+.yoga-holder-goal{
+  position: absolute;
+  top: 50px;
+  left: 270px;
+  font-size: 16px;
+  width: 60px;
+}
+.yoga-goalfirst-grey{
+  color:#929292;
+
+}
+.yoga-7-bold{
+  font-weight: bold;
+}
+
+/*goal 5/7 yoga */
+
+.cooking-holder-goal{
+  position: absolute;
+  top: 130px;
+  left: 285px;
+  font-size: 16px;
+  width: 60px;
+}
+.cooking-goalfirst-grey{
+  color:#929292;
+
+}
+.cooking-7-bold{
+  font-weight: bold;
+}
+
+/*goal 5/7 yoga */
+
+.creative-holder-goal{
+  position: absolute;
+  top: 180px;
+  left: 285px;
+  font-size: 16px;
+  width: 60px;
+}
+.creative-goalfirst-grey{
+  color:#929292;
+
+}
+.creative-7-bold{
+  font-weight: bold;
+}
+
+/* Deadline section */
+
+.deadlines-section{
+  position: relative;
+  background: white;
+  margin-top: 25px;
+  height: 130px;
+  width:365px;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+   box-shadow: 0px 20px 40px rgba(184,184,184,0.25);
+
+}
+.deadlines-section-title{
+  position: absolute;
+  font-size:20px;
+  font-weight: bold;
+  left:15px;
+  top:20px;
+
+}
+.deadlines-section-three-dots{
+  position: absolute;
+  left:310px;
+  top:20px;
+
+}
+
+.dot1 {
+  height: 8px;
+  width: 8px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.deadlines-section-svg{
+  position: absolute;
+  left: 0px;
+  width: 365px;
+  top: 45px;
+}
+
+hr.deadlines-svg{
+
+ border: 0.6px solid;
+ border-color: #E8E8E8;
+ 
+}
+.deadlines-section-clock{
+  position: relative;
+  top: 65px;
+  left:15px;
+}
+.deadlines-section-date{
+  position: absolute;
+  font-size: 17px;
+  top:70px;
+  left:60px;
+}
+
+.deadlines-section-bullet{
+  
+}
+
+.bullet{
+  position: absolute;
+  top:100px;
+  left: 60px;
+  height: 8px;
+  width: 8px;
+  background-color: #EBD5D2;
+  border-radius: 1000px;
+}
+.deadlines-section-text{
+  position: absolute;
+  top:94px;
+  left: 80px;
+  font-size: 17px;
+  color: #929292;
+}
+
+
+
+
+
+
+
+/* Footer */
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 390px;
+  background-color: white;
+  height: 64px;
+  border-top-right-radius: 25px;
+   box-shadow: 0px 20px 40px rgba(184,184,184,0.25);
+
+}
+.home-image{
+  position: absolute;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  left:40px;
+}
+.chart-image{
+  position: absolute;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  left:110px;
+}
+
+.add-image{
+  position: absolute;
+   padding-top: 15px;
+  
+  left:180px;
+}
+.heart-image{
+  position: absolute;
+   padding-top: 20px;
+  padding-bottom: 20px;
+  left:250px;
+}
+.person-image{
+  position: absolute;
+   padding-top: 20px;
+  padding-bottom: 20px;
+  left: 320px;
+}
+
+
+
+
