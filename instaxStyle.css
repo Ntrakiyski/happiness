@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(proxima nova.otf);
+}
+
+body{
+   font-family: "myFirstFont",  Sans-serif;
+   margin-left:25px;
+   margin-right: 25px; 
+   background-color: #ffff;
+   height: 100%;
+  
+}
+.header{
+ position: relative;
+ top:10px; 
+}
+.category{
+  position: absolute;
+  
+}
+.category img {
+   border-radius: 20%;
+}
+.basket{
+    position: absolute;
+    left:340px;
+}
+.models{
+  position: relative;
+  height: 170px;
+  top:90px;
+  
+}
+.background-text{
+  position: flex;
+  left:20px;
+  font-size: 165px;
+  color:#FEEBED;
+  font-weight:700;
+  opacity: 0.8;
+  z-index: -1;
+}
+.first-roundbox{
+  position: absolute;
+  height: 65px;
+  width: 145px;
+  background-color: #ffff;
+  left:20px;
+  top: 85px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  box-shadow: 0px 5px 10px rgba(217,217,217,0.42);
+
+}
+.first-roundbox-image{
+  position: absolute;
+  top:16px;
+  left: 15px;
+}
+.first-roundbox-label{
+  position: absolute;
+  left:60px;
+  top: 23px;
+  font-size: 19px;
+  color:black;
+  font-weight:700;
+}
+.second-roundbox{
+  position: absolute;
+  height: 65px;
+  width: 145px;
+  background-color: #ffff;
+  left:205px;
+  top: 85px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  box-shadow: 0px 5px 10px rgba(217,217,217,0.42);
+
+}
+.second-roundbox-image{
+  position: absolute;
+  top:16px;
+  left: 15px;
+}
+.second-roundbox-label{
+  position: absolute;
+  left:60px;
+  top: 23px;
+  font-size: 19px;
+  color:black;
+  font-weight:700;
+}
+.firstimage-section{
+  position: relative;
+  height: 340px;
+  width: 315px;
+  top: 150px;
+  left:25px;
+  background-color: rgba(170,228,229,0.6);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  box-shadow: 0px 67px 36px -43px rgba(217,217,217,0.42);
+}
+.blueimage{
+  position: absolute;
+  top:35px;
+  left:20px;
+}
+.heart-icon{
+  position: absolute;
+  top:-20px;
+  left:277px;
+
+}
+.secondimage-section{
+  position: relative;
+  height: 340px;
+  width: 315px;
+  top: 200px;
+  left:25px;
+  background-color: #FF7AA7;
+  background-color: rgba(255,122,167,0.6);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+.pinkimage{
+  position: absolute;
+  top:35px;
+  left:20px;
+}

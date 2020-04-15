@@ -162,7 +162,7 @@ body{
 
 .creative-section{
   position: relative;
-  background: #FFFBEC;
+  background: white;
   margin-top: 25px;
   height: 135px;
   width:365px;
@@ -207,7 +207,7 @@ body{
   position: absolute;
   top: 103px;
   left:58px;
-  font-size: 16px;
+  font-size: 16px;x
   color: #BDBDBD;
 }
 .creative-roundbox{
@@ -219,11 +219,13 @@ body{
   width: 80px;
   background-color: #F9F7F4;
   border-radius: 15px;
+  cursor:pointer;
 }
 .label-roundbox-creative{
   padding-top: 4px;
-  color:#545454;
+  color:#256D1B;
 }
+
 
 
 

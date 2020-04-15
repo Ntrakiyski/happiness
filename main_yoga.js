@@ -4,10 +4,10 @@ var isChanged = false;
 button.addEventListener("click", function(){
 
 if(isColored){
-document.querySelector('.creative-section').style.background = "#FFFBEC";
+document.querySelector('.label-roundbox-creative').style.color = "#256D1B";
 isColored = false;
 } else{
-document.querySelector('.creative-section').style.background = "white";
+document.querySelector('.label-roundbox-creative').style.color = "#545454";
 isColored = true;
 }
 
@@ -20,6 +20,8 @@ document.getElementById('bulletsdis').style.display='block';
 document.getElementById('creative-id').style.height='135px';
 document.getElementById('creative-roundbox-id').style.top='75px';
 isChanged = false;
+
+  
 } else{
   var labelText = document.getElementById('myLabel');
 labelText.innerHTML = "Done"; 
@@ -32,8 +34,6 @@ document.getElementById('creative-roundbox-id').style.top='20px';
 isChanged = true;
 
 }
-
-
 
 
 

@@ -9,7 +9,10 @@
   imgText.innerHTML = imgs.alt;
   // Show the container element (hidden with CSS)
   expandImg.parentElement.style.display = "block";
+ 
 }
+
+
 
 /* Pop up - slider */
 document.getElementById('toggle').addEventListener('click',function(){
