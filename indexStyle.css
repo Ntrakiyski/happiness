@@ -78,6 +78,7 @@ body{
   box-shadow: 10px 10px 20px rgba(184,184,184,0.25);
   left:210px;
 }
+
 .firstbox-img{
   position: absolute;
   left: 7px;
@@ -126,6 +127,11 @@ a:active {
   position: absolute;
   left: 30px;
   top:5px;
+}
+.fortbox-img{
+  position: absolute;
+  left: 20px;
+  top:12px;
 }
 .background-img{
   position: absolute;
