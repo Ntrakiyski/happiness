@@ -79,7 +79,7 @@ body{
   left:210px;
 }
 .firstbox-img{
-  position: relative;
+  position: absolute;
   left: 7px;
   top:12px;
 }
@@ -118,9 +118,14 @@ a:active {
   }
 
 .secondbox-img{
-  position: relative;
-  left: 30px;
+  position: absolute;
+  left: 24px;
   top:12px;
+}
+.thirdbox-img{
+  position: absolute;
+  left: 30px;
+  top:5px;
 }
 .background-img{
   position: absolute;
