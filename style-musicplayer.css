@@ -10,7 +10,7 @@ body{
    font-family: "myFirstFont",  Sans-serif;
    margin-left:25px;
    margin-right: 25px; 
-   background-color: #ffff;
+   background-color: #181C22;
    height: 896px;
    margin-top:30px;
    position: relative;
@@ -18,9 +18,6 @@ body{
   
 }
 
-body.on{
-	background-color: #fff;
-}
 .header{
 	position: relative;
 }
@@ -72,6 +69,7 @@ box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.65);
 .preview-image{
 	position: absolute;
 	border-radius: 30px;
+	height: 137px;
 	box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.65);
 }
 .preview-title{
@@ -97,14 +95,32 @@ hr.preview-hr{
 .preview-anounce{
 	position: relative;
 	top:180px;
-	width: 355px;
+	width: 370px;
 	color: #fff;
-	font-size: 16px;
+	font-size: 14px;
 	letter-spacing: 1px;
 }
-.moretext{
+#moretextlink1{
 	color: #D63B29;
+	display: inline;
+	
 }
+
+
+#moretextlink2{
+	color: #D63B29;
+	display: none;
+}
+#moreT{
+	display: none;
+
+}
+#dots{
+	display: inline;
+}
+
+
+
 
 .main{
 	position: relative;
@@ -119,6 +135,7 @@ hr.preview-hr{
 	position: absolute;
 	top:0px;
 	left:320px;
+	
 }
 .songslist{
   position: absolute;
@@ -133,7 +150,7 @@ ul{
 
 }
 li{ 
-  font-size: 18px;
+  font-size: 16px;
   position: relative;
   list-style: none;
   margin-top:40px
