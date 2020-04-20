@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(proxima nova.otf);
+}
+
+body{
+   font-family: "myFirstFont",  Sans-serif;
+   margin-left:25px;
+   margin-right: 25px; 
+   background-color: #FBFBFB;
+   height: 896px;
+   margin-top:30px;
+   position: relative;
+  
+}
+.header{
+	position: relative;
+
+}
+.date{
+	position: absolute;
+	font-size: 40px;
+	font-weight: bold;
+	color: #131212;
+
+}
+.month{
+	position: relative;
+	font-size: 14px;
+	left:50px;
+	top:8px;
+	color: #A5A6AF;
+}
+.navigation{
+	position: absolute;
+	left:280px;
+	top:10px;
+	
+	
+}
+.profile{
+position: absolute;
+	left:320px;
+	top:0px;	
+}
+
+.main{
+	position: relative;
+	top:40px;
+}
+.title{
+	position: absolute;
+	top: 0px;
+	font-size: 24px;
+	font-weight: bold
+
+}
+.viewall{
+	position: absolute;
+	left: 297px;
+	top: 7px;
+	font-size: 14px;
+	color: #F6C12D;
+}
+.firstimage{
+	position: absolute;
+	top: 50px;
+	
+}
+.muscleimage{
+	position: absolute;
+	left: -3px;
+}
+.imgtitle{
+	position: absolute;
+	top: 250px;
+	font-size: 21px;
+	font-weight: bold;
+}
+.imgsub{
+	position: relative;
+	top: 280px;
+	font-size: 16px;
+	color: #A5A6AF;
+}
+.secondimage{
+	position: absolute;
+	top:50px;
+	left:210px;
+}
+.dominicana{
+	position: absolute;
+	left:-3px;
+}
+.imgtitledomi{
+	position: absolute;
+	top: 250px;
+	font-size: 21px;
+	font-weight: bold;
+}
+.imgsubdomi{
+	position: relative;
+	top: 280px;
+	font-size: 16px;
+	color: #A5A6AF;
+}

@@ -188,7 +188,7 @@ hr.preview-hr{
 }
 .previous-circle{
 position: absolute;
-left: 100px;
+left: 110px;
 top:7.5px;
 background-color: #181C22;
 width: 35px;
@@ -199,7 +199,7 @@ box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.65);
 .next-circle{
 position: absolute;
 top:7.5px;
-left: 200px;
+left: 225px;
 background-color: #181C22;
 width: 35px;
 height: 35px;
@@ -208,7 +208,7 @@ box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.65);
 }
 #pause-circle{
 position: absolute;
-left: 142px;
+left: 162px;
 background-color: #D63B29;
 width: 50px;
 height: 50px;
