@@ -1,0 +1,679 @@
+@charset "UTF-8";
+
+html{
+	font-family: 'Noto Sans JP', sans-serif;
+	background-color: #2E3136;
+	cursor: default;
+}
+body{
+	margin: 0px;
+	}
+
+h2{
+	display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-weight: lighter;
+    font-size: 14px;
+    color: #EFEFEF;
+
+}
+
+h3{
+	display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-weight: bold;
+    font-size: 17px;
+    color: #EFEFEF;
+}
+
+h4{
+	display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 14px;
+    color: #9D9D9D;
+    font-weight: lighter;
+}
+h5{
+	display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 16px;
+    font-weight: normal;
+     color: #EFEFEF;
+}
+h6{
+	display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 12px;
+    color: #9D9D9D;
+    font-weight: lighter;
+}
+
+
+.left-section{
+	background-color: #181C22;
+	width: 300px;
+	position: absolute;
+	height: 100%;
+
+}
+.profile-section{
+	margin-top: 20px;
+	position: relative;
+	margin-left: 0px;
+}
+.profile-header{
+	position: absolute;
+
+}
+.profile-hamburger{
+	margin-left:20px;
+	cursor: pointer;
+}
+.profile-logo{
+	position: absolute;
+	top: 0;
+	left: 80px;
+	width: 160px;
+}
+.profile-settings{
+	position: absolute;
+	top: 0;
+	left: 255px;
+	cursor: pointer;
+	}
+.profile-picture{
+	position: absolute;
+	top:55px;
+	margin-left: 20px;
+	}
+.profile-picture-image{
+	position: absolute;
+	left: 85px;
+
+}
+.profile-picture-image:hover{
+	transform: scale(1.2);
+	cursor: pointer;
+
+}
+
+
+.profile-status{
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background-color: #008736;
+	border-radius: 25px;
+	top:72px;
+	left:160px;
+}
+.profile-name{
+	position: absolute;
+	width: 120px;
+	top: 110px;
+	left:65px;
+}
+.profile-position{
+	position: absolute;
+	width: 120px;
+	top: 135px;
+	left:68px;
+	width: 130px;
+}
+.spacing1{
+	margin-left: 5px;
+
+}
+.spacing2{
+	margin-left: 5px;
+	color: #E94949;
+}
+.profile-followers-section{
+	position: absolute;
+	top:250px;
+	left: 5px;
+	width: 120px;
+	height: 40px;	
+	border-radius: 5px;
+	cursor: pointer;
+}
+.profile-followers-section:hover{
+	background-color: rgba(91,93,96, 0.3);
+
+}
+
+.profile-followers-image{
+	position: absolute;
+	top:10px;
+	margin-left: 15px;
+}
+.profile-followers-number{
+	position: absolute;
+	left: 50px;
+	top: 0px;
+}
+.profile-followers-title{
+	position: absolute;
+	left: 50px;
+	top: 24px;
+}
+.profile-follow-greyline{
+	position: absolute;
+	height: 40px;
+	width: 1px;
+	opacity: 0.5;
+	background-color: #9D9D9D;
+	top: 250px;
+	left: 150px;
+	border-radius: 4px;
+}
+.profile-following-section{
+	position: absolute;
+	top:250px;
+	left:175px;
+	width: 120px;
+	height: 40px;	
+	border-radius: 5px;
+	cursor: pointer;
+}
+.profile-following-section:hover{
+	background-color: rgba(91,93,96, 0.3);
+
+}
+.profile-following-image{
+	position: absolute;
+	top:10px;
+	left: 10px;
+}
+.profile-following-number{
+	position: absolute;
+	left: 45px;
+	top: 0px;
+}
+.profile-following-title{
+	position: absolute;
+	left: 45px;
+	top: 24px;
+}
+.settings-section ul {
+	padding-left: 0px;
+	margin-left:0px;
+	list-style-type: none;
+}
+
+
+.settings-section li{
+	height: 35px;
+	width:100%;
+	border-radius: 5px;
+	cursor: pointer;
+	padding-bottom: 10px;
+}
+.settings-section li:hover{
+	background-color: rgba(91,93,96, 0.3);
+	}
+
+.settings-section{
+	position: relative;
+	top: 330px;
+	left:0;
+}
+.setting1-icon{
+	position: absolute;
+	top:12px;
+	left:20px;
+}
+.setting1-label{
+	position: absolute;
+	top:12px;
+	left:60px;
+}
+.setting1-venue{
+	position: absolute;
+	top: 14px;
+	left: 250px;
+}
+.setting2-icon{
+	position: absolute;
+	top:57px;
+	left:20px;
+}
+.setting2-label{
+	position: absolute;
+	top:56px;
+	left:60px;
+}
+.setting3-icon{
+	position: absolute;
+	top:104px;
+	left:20px;
+}
+.setting3-label{
+	position: absolute;
+	top:102px;
+	left:60px;
+}
+.setting4-icon{
+	position: absolute;
+	top:150px;
+	left:20px;
+}
+.setting4-label{
+	position: absolute;
+	top:148px;
+	left:60px;
+}
+.setting5-icon{
+	position: absolute;
+	top:193px;
+	left:20px;
+}
+.setting5-label{
+	position: absolute;
+	top:193px;
+	left:60px;
+}
+
+
+
+
+
+.favourites-section{
+	position: absolute;
+	top: 600px;
+	
+}
+.facourites-title{
+	position: absolute;
+	width: 140px;
+	left:20px;
+
+}
+
+.favourites-addnew{
+	position: absolute;
+	left:250px;
+	cursor: pointer;
+}
+
+.favourites-top{
+	position: absolute;
+	width: 300px;
+	top:20px;
+	
+
+}
+
+
+.favourites-top ul{
+	padding-left: 0px;
+	list-style-type: none;
+
+}
+
+.favourites-top li{
+	height: 35px;
+	border-radius: 5px;
+	cursor: pointer;
+    padding-bottom: 10px;
+}
+.favourites-top  li:hover{
+	background-color: rgba(91,93,96, 0.3);
+}
+
+.favourite1-label{
+	position: absolute;
+	top: 27px;
+	left: 65px;
+
+}
+.favourite1-logo{
+	position: absolute;
+	top: 23px;
+	left: 20px;
+	}
+
+.favourite1-star{
+	position: absolute;
+	top: 27px;
+	left:237px;
+}
+.favourite2-label{
+	position: absolute;
+	top: 72px;
+	left: 65px;
+
+}
+.favourite2-logo{
+	position: absolute;
+	top: 68px;
+	left: 20px;
+	}
+
+.favourite2-star{
+	position: absolute;
+	top: 72px;
+	left:237px;
+}
+.favourite3-label{
+	position: absolute;
+	top: 117px;
+	left: 65px;
+
+}
+.favourite3-logo{
+	position: absolute;
+	top: 112px;
+	left: 20px;
+	}
+
+.favourite3-star{
+	position: absolute;
+	top: 117px;
+	left:237px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.right-section{
+	background-color: #181C22;
+	width: 300px;
+	position: absolute;
+	height: 100%;
+	right: 0;
+
+}
+.applications-section{
+	margin-top: 20px;
+	position: relative;
+	margin-left: 20px;
+}
+.applications-title{
+	top:2px;
+	position: absolute;
+}
+.applications-picklist{
+	position: absolute;
+	top: 0;
+	left: 160px;
+
+}
+
+.applications-picklist select{
+
+	background-color: #2E3136;
+	color: #9D9D9D;
+	padding-top:2px;
+	padding-left:20px;
+	width: 100px;
+	height: 25px;
+	border: none;
+	font-size: 12px;
+	border-radius: 7px;
+	cursor:pointer;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+}
+
+.applications-application1{
+	position: absolute;
+	top: 50px;
+	left:0;
+	width: 260px;
+	height: 75px;
+	border-radius: 7px;
+	background-color: #2E3136;
+	cursor: pointer;
+}
+
+
+.application1-logo{
+	position: absolute;
+	top: 18px;
+	left: 10px;
+}
+.application1-title{
+	position: absolute;
+	top: 15px;
+	left: 70px;
+
+
+}
+.application1-status{
+	position: absolute;
+	top: 28px;
+	left: 190px;
+	
+}
+.application1-iconposi{
+	position: absolute;
+	top:40px;
+	left:70px;
+}
+.application1-titleposi{
+	position: absolute;
+	top:41px;
+	left:90px;
+}
+.applications-application2{
+	position: absolute;
+	top: 140px;
+	left:0;
+	width: 260px;
+	height: 75px;
+	border-radius: 7px;
+	background-color: #2E3136;
+	cursor: pointer;
+}
+
+.application2-logo{
+	position: absolute;
+	top: 18px;
+	left: 12px;
+}
+.application2-title{
+	position: absolute;
+	top: 15px;
+	left: 70px;
+
+
+}
+.application2-status{
+	position: absolute;
+	top: 28px;
+	left: 190px;
+	
+}
+.application2-iconposi{
+	position: absolute;
+	top:40px;
+	left:70px;
+}
+.application2-titleposi{
+	position: absolute;
+	top:41px;
+	left:90px;
+}
+
+.applications-application3{
+	position: absolute;
+	top: 230px;
+	left:0;
+	width: 260px;
+	height: 75px;
+	border-radius: 7px;
+	background-color: #2E3136;
+	cursor: pointer;
+}
+
+.application3-logo{
+	position: absolute;
+	top: 18px;
+	left: 12px;
+}
+.application3-title{
+	position: absolute;
+	top: 15px;
+	left: 70px;
+
+
+}
+.application3-status{
+	position: absolute;
+	top: 28px;
+	left: 190px;
+	
+}
+.application3-iconposi{
+	position: absolute;
+	top:40px;
+	left:70px;
+}
+.application3-titleposi{
+	position: absolute;
+	top:41px;
+	left:90px;
+}
+
+
+.following-section{
+	position: absolute;
+	top: 360px;
+	left:20px;
+	cursor: default;
+
+
+}
+.following-viewall{
+	position: absolute;
+	left:230px;
+	top: 3px;
+	cursor: pointer;
+}
+
+.following-table-images{
+	position: absolute;
+	top: 40px;
+}
+th{
+	padding-right: 15px;
+	padding-bottom: 10px;
+	
+}
+th img{	
+	cursor: pointer;
+}
+th img:hover{	
+	 transform: scale(1.2);
+	 transition: 2 ease-in-out;
+}
+
+.notifications-section{
+	position: absolute;
+	top: 560px;
+	margin-left: 20px;
+		
+}
+.notifications-viewall{
+	position: absolute;
+	left:205px;
+	top: 3px;
+	width: 50px;
+	cursor: pointer;
+}
+.notifications-notifs{
+	position: absolute;
+	top: 40px;
+
+}
+.notifications-notifs ul{
+	padding-left: 0px;
+	list-style-type: none;
+}
+.notifications-notifs li{
+	padding-bottom: 20px;
+}
+.notifications-notifs li:last-child{
+	padding-bottom: 0px;
+}
+.notif1-name{
+	position: absolute;
+	top: 5px;
+	left:60px;
+	width: 120px;
+}
+.notif1-message{
+	position: absolute;
+	top: 30px;
+	left:60px;
+	width: 140px;
+	font-size: 12px;
+	color: #9D9D9D;
+	font-weight: lighter;
+}
+.notif1-date{
+	position: absolute;
+	top: 55px;
+	left:60px;
+	width: 140px;
+	font-size: 10px;
+	color: #717274;
+	font-weight: lighter;
+}
+.notif2-name{
+	position: absolute;
+	top:85px;
+	left:60px;
+	width: 80px;
+}
+.notif2-message{
+	position: absolute;
+	top: 110px;
+	left:60px;
+	width: 170px;
+	font-size: 12px;
+	color: #9D9D9D;
+	font-weight: lighter;
+}
+.notif2-date{
+	position: absolute;
+	top: 135px;
+	left:60px;
+	width: 140px;
+	font-size: 10px;
+	color: #717274;
+	font-weight: lighter;
+}
