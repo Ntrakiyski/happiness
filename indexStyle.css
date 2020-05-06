@@ -104,6 +104,19 @@ body{
   box-shadow: 10px 10px 20px rgba(184,184,184,0.25);
   left:30px;
 }
+.project-seventhbox{
+  position: absolute;
+  top: 540px;
+  background: white;
+  height:100px;
+  width: 300px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 10px 10px 20px rgba(184,184,184,0.25);
+  left:30px;
+}
 
 .firstbox-img{
   position: absolute;
@@ -169,6 +182,11 @@ a:active {
   left:20px;
   top:5px;
 }
+.seventh-img{
+  position: absolute;
+  left:20px;
+  top:10px;
+}
 .scout-title{
    position: absolute;
   left: 140px;
@@ -187,6 +205,21 @@ a:active {
    color: black;
    text-align: center;
    }
+  .todo-title{
+    position: absolute;
+   left: 140px;
+   top:40px;
+   font-size: 16px;
+   width: 120px;
+   color: black;
+   text-align: center;
+  } 
+
+
+
+
+
+
 .background-img{
   position: absolute;
   z-index: -1;
